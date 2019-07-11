@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1 id="price">N/A</h1>
+<p id="demo"></p>
+
+
+<script src="main.js"></script>
+
+
+<!-- <button type="button" onclick="myFunction()">Try it</button> -->
+<script type="text/javascript">myFunction();</script>
+
+
+ <script type="text/javascript">
+    window.onload = setupRefresh;
+ 
+    function setupRefresh() {
+      setTimeout("refreshPage();", 30000); // milliseconds
+    }
+    function refreshPage() {
+       window.location = location.href;
+    }
+  </script>
+ 
+
+
+</body>
+</html>
